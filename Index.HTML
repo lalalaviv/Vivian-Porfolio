@@ -1,40 +1,77 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <title>Vivian's Portfolio</title>
+    <title>It's viv.</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./Assets/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
   </head>
 
   <body>
-    <header class="main-header">
-      <h1>Vivian</h1>
-      <h2>We sell stuff!</h2>
-    </header>
-<nav>
-    About Me
-    Work
-    Contact Me
-</nav>
 
+<header>
+    <!--Navigation bar-->
+<nav>
+  <ul>
+    <li> <a href="#about-me">About Me</a></li>
+    <li> <a href="#featured-work">Featured Work</a></li>
+    <li> <a href="#contact-me">Contact Me</a></li>
+    </ul>
+</nav>
+</header>
+
+<!--hero image-->
+<div class="cover-img">  
+  <img src="./Assets/images/cover.png" alt="Pictures of Vivian"/> 
+</div>
+  
+<div class=" wrapper">
     <main>
-      <section class="card camera">
-        <header>About Me</header>
+<!-- about me-->
+      <section class="about-me" id="about-me">
+        <h2>About Me</h2>
+        <h3>Vivian Lee</h3>
+          <div>
+          <p> Hi, I'm Vivian and I'm a web developer/programmer, also an Oral Health Therapist.
+          Born in Taiwan but grew up in Brisbane, and currently based in Melbourne, Australia. 
+          I love designing and creating something that is simple and user friendly, and I love what I do! </p>
+        <img src="./Assets/images/vivian.JPG" alt="A picture of me"/>
+      </div>
       </section>
-      <section class="card">
-        <header>Work</header>
+<br>
+
+
+<!--work illustrations-->
+      <section class="featured-work" id="featured-work">
+        <h2>Featured Work</h2>
+        <div class="portfolio">
+          <h3 id="image1">Bootcamp study guide</h3>
+          <a id= "prework" href="https://lalalaviv.github.io/Prework-study-guide/"> <img src= "Assets/images/bowtie-cat copy.png" alt="Bootcamp study guide" width="300" height="300"/> </a>
+          <h3 id="image2">Horiseon webpage</h3>
+          <a id= "horiseon" href="https://lalalaviv.github.io/Week-One-Challenge/"> <img src= "Assets/images/horiseon.png" alt="Horiseon webpage" width="300" height="300"/> </a>
+        </div>
+        </section>
+
+<!--contact me section-->
+<section class="contact-me" id="contact-me">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+          <p id="address">Victoria, Australia</p>
+          <p id="phone"> Phone: 0412345678</p>
+          <p id="email"> Email: myemail@mail.com</p>
+        </div>
+
+      </div>
       </section>
-      <section class="card">
-        <header>Contact Me</header>
-      </section>
-      <section class="card">
-        <header>Wooden Spoons</header>
-      </section>
+ 
     </main>
+
   </body>
 
-  <footer> &copy Made by Vivian Lee</footer>
+  <footer> 
+    <h3>&copy 2022 Made by Vivian Lee </h3>
+  </footer>
 
 </html>
